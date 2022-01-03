@@ -13,9 +13,41 @@
     background-size: cover;
 }
 
+#services{
+    padding: 30px 0px;
+}
+
 .banner h2{
     color: #111;
     font-size: 33px;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 31%;
+    margin: 0px 10px;
+}
+
+.card{
+    padding: 20px;
+    background:cyan;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .col-3{
+        width: 50%;
+        
+    }
 }
